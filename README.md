@@ -1,4 +1,4 @@
 # Lista de Ponteiros
 
-##Integrante:
--Arthur Gaag
+### Integrante:
+ - Arthur Gaag
