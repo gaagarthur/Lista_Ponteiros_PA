@@ -44,4 +44,8 @@ int main(void){
 
     ptr_sum(Vec1, Vec2, Vec3, num_ele);
 
+    free(Vec1);
+    free(Vec2);
+    free(Vec3);
+
 }
