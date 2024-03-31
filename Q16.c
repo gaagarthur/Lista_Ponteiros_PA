@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-//leia n valores do tipo float e os apresente em ordem crescente.
+//leia n valores do tipo float e os apresente em ordem crescente usando qsort.
 
 int compare(const void * x, const void * y){
     return ( *(int*)x - *(int*)y );
