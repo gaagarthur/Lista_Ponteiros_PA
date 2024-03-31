@@ -28,7 +28,20 @@ int main(void){
         printf(" %d",ptr[i]);
     }
 //---------------------------------------------------------------------------
-    qsort(ptr, num_elem, sizeof(int),compare);//comparacao e troca
+//bubble sorting
+//---------------------------------------------------------------------------
+    for(int j =0; j<num_elem;j++){
+        for(int i=0; i<(num_elem-1); i++){
+
+         if(ptr[i]>ptr[i+1]){
+            int holder = ptr[i];
+            ptr[i] = ptr[i+1];
+            ptr[i+1] = holder;
+        }
+    }
+
+
+}
 //---------------------------------------------------------------------------
     printf("\n ordenada: ");//imprimi vetor novo
     for(int i=0; i<num_elem; i++){
