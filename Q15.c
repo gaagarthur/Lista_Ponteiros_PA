@@ -4,10 +4,6 @@
 
 //leia n valores do tipo float e os apresente em ordem crescente.
 
-int compare(const void * x, const void * y){
-    return ( *(int*)x - *(int*)y );
-}
-
 int main(void){
     int num_elem;
     int *ptr;
